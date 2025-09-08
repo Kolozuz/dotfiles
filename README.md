@@ -28,12 +28,10 @@
     </tr>
     <tr>
       <td>
-        <img width="600px" height="600" alt="neovim with nvchad in the alacritty terminal 1" src="https://github.com/user-attachments/assets/2b3c100c-3fbc-4894-9462-b5fbe7210fbf" />
+        <img width="600" height="500" alt="neovim with nvchad in the alacritty terminal 1" src="https://github.com/user-attachments/assets/41357fc3-5722-441a-9264-7b773c1f45e4" />
       </td>
       <td>
-        <img width="576px" alt="neovim with nvchad in the alacritty terminal 2" src="https://github.com/user-attachments/assets/af04cfa4-067b-48eb-9da1-a745784f3267" />
-        <br>
-        <img width="576px" alt="neovim with nvchad in the alacritty terminal 3" src="https://github.com/user-attachments/assets/dbbb0414-5e4c-43ec-92c5-9013a91e844c" />
+        <img width="400" height="606" alt="Nvchad's terminal integration in neovim" src="https://github.com/user-attachments/assets/d7dbec6b-518c-4f0c-b9af-74bc69203555" />
       </td>
     </tr>
     <tr>
