@@ -41,10 +41,12 @@ M.nvdash = {
         "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
     },
 }
--- M.ui = {
---       tabufline = {
---          lazyload = false
---      }
--- }
+
+M.ui = {
+    statusline = {
+        theme = "minimal",
+        separator_style = "round"
+    }
+}
 
 return M
