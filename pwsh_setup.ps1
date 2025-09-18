@@ -26,7 +26,7 @@ function Profile-Config
     Write-Host "[Profile] Setting up programs..."
     $commands = @{
         "fnm" = "fnm env --use-on-cd | Out-String | Invoke-Expression"
-        "starship" = "nInvoke-Expression (&starship init powershell)"
+        "starship" = "Invoke-Expression (&starship init powershell)"
     }
     
     foreach ($program in $commands.Keys) {
