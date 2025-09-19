@@ -63,11 +63,15 @@ function Set-Symlinks {
             {
                 New-Item -Path $windowsConfigDir -ItemType Junction -Value $configDir
                 Write-Host "[Config] Symlink to '$configDir' set in '$windowsConfigDir'"
+            } else {
+                Write-Host "[Config] Path '$windowsConfigDir' is not empty, symlink creation skipped"
             }
         
         } else {
-            Write-Host "[Config] All good 👍"
+            Write-Host "[Config] You're on Linux, good to go 👍"
         }
+        
+        Write-Host "[Config] Symlink setup finished succesfully!"
         
     }
 
