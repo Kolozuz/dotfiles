@@ -71,7 +71,7 @@ function Set-Symlinks {
             Write-Host "[Config] You're on Linux, good to go 👍"
         }
         
-        Write-Host "[Config] Symlink setup finished succesfully!"
+        Write-Host "[Config] Symlinks setup finished succesfully!"
         
     }
 
