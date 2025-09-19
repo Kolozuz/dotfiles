@@ -33,7 +33,7 @@ function Profile-Config
         Write-Host "[Profile] Setting up '$program'..."
         
         if (Get-Command $program -ErrorAction SilentlyContinue) {
-            Add-Content -Path $PROFILE -Value "`n$commands.Values['$program']"
+            Add-Content -Path $PROFILE -Value "`n$($commands[$program])"
             Write-Host "[Profile] Program '$program' set up succesfully!"
         } else {
             Write-Host "[Profile] ERROR: command '$program' not found, make sure it is installed and added to your PATH"
@@ -61,7 +61,7 @@ function Set-Symlinks {
             $configDir = "${HOME}\.config\$program"
             if (!(Test-Path $windowsConfigDir))
             {
-                New-Item -Path $configDir -ItemType Junction -Value $configDir
+                New-Item -Path $windowsConfigDir -ItemType Junction -Value $configDir
                 Write-Host "[Config] Symlink to '$configDir' set in '$windowsConfigDir'"
             }
         
