@@ -1,0 +1,162 @@
+[/]
+alttab-switcher-delay=100
+command-history=['cmd']
+desklet-snap-interval=25
+desktop-effects=false
+desktop-effects-on-dialogs=false
+desktop-effects-on-menus=false
+desktop-effects-workspace=false
+device-aliases=['/org/freedesktop/UPower/devices/battery_BAT1:=LENOVO PABAS0241231']
+enable-vfade=false
+enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:right:8:xapp-status@cinnamon.org:4', 'panel1:right:10:notifications@cinnamon.org:5', 'panel1:right:11:network@cinnamon.org:10', 'panel1:right:12:sound@cinnamon.org:11', 'panel1:right:13:power@cinnamon.org:12', 'panel1:right:14:cornerbar@cinnamon.org:14', 'panel1:left:2:workspace-switcher@cinnamon.org:44', 'panel1:right:6:show-hide-applets@mohammad-sn:47', 'panel1:right:5:removable-drives@cinnamon.org:54', 'panel1:left:0:menu@cinnamon.org:55', 'panel1:right:4:keyboard@cinnamon.org:56', 'panel1:right:3:on-screen-keyboard@cinnamon.org:57', 'panel1:left:3:separator@cinnamon.org:58', 'panel1:right:9:separator@cinnamon.org:59', 'panel1:right:7:separator@cinnamon.org:60', 'panel1:center:0:calendar@cinnamon.org:61', 'panel1:left:4:scale@cinnamon.org:62']
+enabled-desklets=@as []
+favorite-apps=['mintinstall.desktop', 'firefox.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
+next-applet-id=63
+next-desklet-id=6
+no-adjacent-panel-barriers=false
+panel-edit-mode=false
+panel-launchers=['DEPRECATED']
+panel-zone-icon-sizes='[{"panelId": 1, "left": 0, "center": 0, "right": 24}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 21, "center": 28, "right": 16}]'
+panel-zone-text-sizes='[{"panelId":1,"left":0,"center":0,"right":0}]'
+panels-autohide=['1:false', '2:false']
+panels-enabled=['1:0:top']
+panels-height=['1:33', '2:40']
+panels-hide-delay=['1:0', '2:0']
+panels-show-delay=['1:0', '2:0']
+startup-animation=false
+window-effect-speed=1
+
+[cinnamon-session]
+quit-time-delay=60
+
+[desktop/a11y/applications]
+screen-keyboard-enabled=true
+screen-magnifier-enabled=false
+
+[desktop/a11y/keyboard]
+bouncekeys-delay=300
+mousekeys-accel-time=300
+mousekeys-init-delay=300
+mousekeys-max-speed=10
+slowkeys-delay=300
+
+[desktop/a11y/mouse]
+dwell-threshold=10
+dwell-time=1.2
+secondary-click-time=1.2
+
+[desktop/applications/calculator]
+exec='gnome-calculator'
+
+[desktop/applications/terminal]
+exec='alacritty'
+exec-arg='--'
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/kolozuz/Pictures/Wallpapers/wallhaven-vg8mo8_1600x900.png'
+
+[desktop/background/slideshow]
+delay=15
+image-source='directory:///home/kolozuz/Pictures/Wallpapers'
+random-order=true
+slideshow-enabled=true
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-size=5
+cursor-theme='Bibata-Original-Classic'
+gtk-theme='Mint-L-Dark-Red'
+icon-theme='Papirus-Dark'
+text-scaling-factor=1.0
+toolkit-accessibility=true
+
+[desktop/media-handling]
+autorun-never=false
+autorun-x-content-ignore=@as []
+autorun-x-content-open-folder=@as []
+autorun-x-content-start-app=['x-content/unix-software', 'x-content/image-dcf']
+
+[desktop/notifications]
+display-notifications=true
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+numlock-state=true
+repeat-interval=uint32 30
+
+[desktop/peripherals/mouse]
+accel-profile='flat'
+double-click=400
+drag-threshold=8
+locate-pointer=false
+speed=-0.18487394957983194
+
+[desktop/peripherals/touchpad]
+send-events='disabled-on-external-mouse'
+speed=0.0
+
+[desktop/screensaver]
+layout-group=1
+lock-delay=uint32 1800
+
+[desktop/session]
+idle-delay=uint32 1800
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+min-window-opacity=30
+num-workspaces=2
+workspace-names=@as []
+
+[gestures]
+pinch-percent-threshold=uint32 40
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WINDOW_WORKSPACE_PREVIOUS::end'
+swipe-percent-threshold=uint32 60
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[launcher]
+check-frequency=300
+memory-limit=2048
+
+[muffin]
+draggable-border-width=10
+experimental-features=@as []
+unredirect-fullscreen-windows=true
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='on'
+
+[settings-daemon/peripherals/touchscreen]
+orientation-lock=true
+
+[settings-daemon/plugins/color]
+night-light-last-coordinates=(4.3600000000000003, -74.049999999999997)
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=600
+sleep-display-battery=300
+sleep-inactive-ac-timeout=900
+sleep-inactive-battery-timeout=600
+
+[settings-daemon/plugins/xsettings]
+buttons-have-icons=false
+
+[theme]
+name='qob'
