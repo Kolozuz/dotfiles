@@ -5,13 +5,13 @@ desklet-snap-interval=25
 desktop-effects=false
 desktop-effects-on-dialogs=false
 desktop-effects-on-menus=false
-desktop-effects-workspace=false
+desktop-effects-workspace=true
 device-aliases=['/org/freedesktop/UPower/devices/battery_BAT1:=LENOVO PABAS0241231']
 enable-vfade=false
-enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:right:8:xapp-status@cinnamon.org:4', 'panel1:right:10:notifications@cinnamon.org:5', 'panel1:right:11:network@cinnamon.org:10', 'panel1:right:12:sound@cinnamon.org:11', 'panel1:right:13:power@cinnamon.org:12', 'panel1:right:14:cornerbar@cinnamon.org:14', 'panel1:left:2:workspace-switcher@cinnamon.org:44', 'panel1:right:6:show-hide-applets@mohammad-sn:47', 'panel1:right:5:removable-drives@cinnamon.org:54', 'panel1:left:0:menu@cinnamon.org:55', 'panel1:right:4:keyboard@cinnamon.org:56', 'panel1:right:3:on-screen-keyboard@cinnamon.org:57', 'panel1:left:3:separator@cinnamon.org:58', 'panel1:right:9:separator@cinnamon.org:59', 'panel1:right:7:separator@cinnamon.org:60', 'panel1:center:0:calendar@cinnamon.org:61', 'panel1:left:4:scale@cinnamon.org:62']
+enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:right:10:xapp-status@cinnamon.org:4', 'panel1:right:13:notifications@cinnamon.org:5', 'panel1:right:15:sound@cinnamon.org:11', 'panel1:right:16:cornerbar@cinnamon.org:14', 'panel1:left:2:workspace-switcher@cinnamon.org:44', 'panel1:right:8:show-hide-applets@mohammad-sn:47', 'panel1:right:7:removable-drives@cinnamon.org:54', 'panel1:right:6:keyboard@cinnamon.org:56', 'panel1:right:5:on-screen-keyboard@cinnamon.org:57', 'panel1:left:3:separator@cinnamon.org:58', 'panel1:right:12:separator@cinnamon.org:59', 'panel1:right:9:separator@cinnamon.org:60', 'panel1:center:0:calendar@cinnamon.org:61', 'panel1:left:4:scale@cinnamon.org:62', 'panel1:right:3:power@cinnamon.org:64', 'panel1:right:4:a11y@cinnamon.org:66', 'panel1:right:11:NightLightSwitch@claudiux:68', 'panel1:right:1:network@cinnamon.org:69', 'panel1:left:0:menu@cinnamon.org:70']
 enabled-desklets=@as []
 favorite-apps=['mintinstall.desktop', 'firefox.desktop', 'cinnamon-settings.desktop', 'org.gnome.Terminal.desktop', 'nemo.desktop']
-next-applet-id=63
+next-applet-id=71
 next-desklet-id=6
 no-adjacent-panel-barriers=false
 panel-edit-mode=false
@@ -145,7 +145,9 @@ numlock-state='on'
 orientation-lock=true
 
 [settings-daemon/plugins/color]
+night-light-enabled=true
 night-light-last-coordinates=(4.3600000000000003, -74.049999999999997)
+night-light-temperature=uint32 4100
 
 [settings-daemon/plugins/power]
 lid-close-ac-action='suspend'
