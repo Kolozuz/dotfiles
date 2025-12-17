@@ -25,6 +25,7 @@ function Profile-Config
     # Setup programs
     Write-Host "[Profile] Setting up programs..."
     $commands = @{
+        "Import-Module posh-git"
         "fnm" = "fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression"
         "starship" = "Invoke-Expression (&starship init powershell)"
     }
