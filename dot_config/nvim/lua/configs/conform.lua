@@ -5,7 +5,7 @@ local options = {
 		typescript = { "biome" },
 		vue = { "biome" },
 		yaml = { "prettier" },
-		python = { "black" },
+		rust = { "rustfmt" },
 		-- css = { "prettier" },
 		-- html = { "prettier" },
 	},
